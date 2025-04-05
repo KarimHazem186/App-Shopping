@@ -1,0 +1,50 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+        <title>Shopping Cart I Register Page</title>
+        
+        <link rel="stylesheet" href="style/style.css"/>
+        <link rel="stylesheet" href="style/register.css"/>
+        <link rel="stylesheet" href="style/style-rtl.css"/>
+    
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="brand">Shopping Cart </a>
+                    <nav>
+                       <ul>
+                           <li><a href="login.html">Sign In</a></li>  
+                           <li><a href="register.html">Sign Up</a></li>
+                           <li id ="en_lang">En</li>
+                            <li id="ar_lang">Ar</li>  
+                        </ul> 
+                    </nav>
+                </div>
+            </div>
+        </header> 
+        <section class="section-form">
+            <h2>Register User</h2>
+            <form novalidate>
+                <input class="text" placeholder="Enter Email.." id="email"/>
+                <input class="email" placeholder="Enter Username.." id="username"/>
+                <input type="password" placeholder="Enter Password.." id ="password"/>
+                <input type="submit" value="Sign up" id ="sign_up" />
+
+                Have Account <a href="login.html">sign in</a>
+
+            </form>
+        </section>
+        <!-- <script src="js/script.js"></script> -->
+        
+        <script src="js/register.js"></script>
+        <script src="js/langDir.js"></script>
+        
+    </body>
+</html>

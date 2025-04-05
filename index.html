@@ -1,0 +1,125 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+        <title>Shopping Cart I Home Page</title>
+        
+        <link rel="stylesheet" href="style/style.css"/>
+        <link rel="stylesheet" href="style/style-rtl.css"/>
+    </head>
+    <body>
+
+<!-- 
+   <i class="fas fa-shoping-cart"></i>
+    <i class="far fa-heart"></i>
+ -->
+
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="brand">Shopping Cart </a>
+                    <nav>
+                       <ul id="links">
+                           <li><a href="login.html">Sign In</a></li>  
+                           <li><a href="register.html">Sign Up</a></li>  
+                        </ul> 
+                        <ul id="user_info">
+                            <li id ="en_lang">En</li>
+                            <li id="ar_lang">Ar</li>
+                            <li><a href="profile.html" id="user"></a></li>
+                            <li><a href="favourite.html">Favourites</a></li>
+                            <li><a href="myproducts.html">My Products</a></li>
+                            <li class="shoppingCart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge"></span>
+                                <div class="carts-products">
+                                    <div></div>
+                                    <!-- <p>Item name</p> -->
+                                    <a href="cartproducts.html">view all products</a>
+                                </div>
+                            </li>
+                            <li><a href="#" id="logout">Logout</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header> 
+        <section class="home">
+            <div class="container">
+                <input id="search" type="text" placeholder="Search By name" />
+                <div class="products">
+                    <!-- <div class="product-item">
+                        <img src="images/headphone.avif" class="product-item-img" alt="image"/>
+                        <div class="product-item-desc">
+                            <h2>HeadPhone Item</h2>
+                            <p>Loremcipsum,dolar sit amet consectetur.</p>
+                            <span>Size:large</span>
+                        </div>
+                        <div class="product-item-actions">
+                            <button class="add-to-cart">Add to Cart</button>
+                            <i class="favorite far fa-heart"></i>
+                        </div>
+                    </div> -->
+                    <!-- <div class="product-item">
+                        <img src="images/laptop.jpg" class="product-item-img" alt="image"/>
+                        <div class="product-item-desc">
+                            <h2>Laptop Item</h2>
+                            <p>Loremcipsum,dolar sit amet consectetur.</p>
+                            <span>Size:large</span>
+                        </div>
+                        <div class="product-item-actions">
+                            <button class="add-to-cart">Add to Cart</button>
+                            <i class="favorite far fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="images/glasses.avif" class="product-item-img" alt="image"/>
+                        <div class="product-item-desc">
+                            <h2>Glasses Item</h2>
+                            <p>Loremcipsum,dolar sit amet consectetur.</p>
+                            <span>Size:large</span>
+                        </div>
+                        <div class="product-item-actions">
+                            <button class="add-to-cart">Add to Cart</button>
+                            <i class="favorite far fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="images/watch.avif" class="product-item-img" alt="image"/>
+                        <div class="product-item-desc">
+                            <h2>Watch Item</h2>
+                            <p>Loremcipsum,dolar sit amet consectetur.</p>
+                            <span>Size:large</span>
+                        </div>
+                        <div class="product-item-actions">
+                            <button class="add-to-cart">Add to Cart</button>
+                            <i class="favorite far fa-heart"></i>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="products-filter">
+
+                    <h2>Filter By Size:</h2>
+                    <select name="" id="size-filter">
+                        <option value=""hidden>Filter By Size</option>
+                        <option value="all">All</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+            </div>
+            <a href="createProduct.html" class="create-product-icon"><i class="fa fa-plus"></i></a>
+        </section>
+        <script src="js/user.js"></script>
+        <script src="js/langDir.js"></script>
+        <script src="js/data.js"></script> 
+        <script src="js/cartMenu.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
